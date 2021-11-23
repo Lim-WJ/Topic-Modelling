@@ -11,3 +11,18 @@ A total of 184716 threads were scraped from 9326 pages of EDMW . Subsequently, a
 Number of topics	          4	                   5                     	6
 C_umass  	          -9.506497974706509	  -9.10533638568538	    -8.908555870270321
 C_v  	              0.47487951657782745	  0.45287028371827687	  0.43811157137575596
+
+
+4-topic model has the worst C_umass value and the best C_v value. 
+5-topic model is the middle performing model.
+6-topic model has the best C_umass value and the worst C_v value. 
+
+As such, different models were chosen based on the metrics used. Hence, it is prudent to see the top 10 most representative words for each topic through word cloud and pyLDAvis package. From the word cloud and pyLDAvis package, the topics are too broad for the 4-topic model and there are overlapping topics for the 6-topic model. Furthermore, the 5-topic model has a diverse range of topics that illustrates the current Covid-19 situation. Based on the team’s judgement and understanding of the pandemic, the 5-topic model is the most appropriate. 
+
+From the 5-topic model, below is a short summary of what each topic entails.
+Topic 1 illustrates the status updates globally.  
+Topic 2 illustrates the safe management measures in Singapore.
+Topic 3 illustrates the vaccination rates and the protection vaccination offers against Covid-19 and its variants.
+Topic 4 illustrates the concerns surrounding the management and seriousness of symptoms of Covid -19.
+Topic 5 illustrates the concerns surrounding the number of community case counts, clusters and the infection rates.  
+
