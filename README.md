@@ -13,7 +13,7 @@ A total of 184716 threads were scraped from 9326 pages of EDMW . Subsequently, a
 5-topic model is the middle performing model.
 6-topic model has the best C_umass value and the worst C_v value. 
 
-As such, different models were chosen based on the metrics used. Hence, it is prudent to see the top 10 most representative words for each topic through word cloud and pyLDAvis package. From the word cloud and pyLDAvis package, the topics are too broad for the 4-topic model and there are overlapping topics for the 6-topic model. Furthermore, the 5-topic model has a diverse range of topics that illustrates the current Covid-19 situation. Based on the team’s judgement and understanding of the pandemic, the 5-topic model is the most appropriate. 
+As such, different models were chosen based on the metrics used. Hence, it is prudent to see the top 10 most representative words for each topic through word cloud and pyLDAvis package. From the word cloud and pyLDAvis package, the topics are too broad for the 4-topic model and there are overlapping topics for the 6-topic model. Furthermore, the 5-topic model has a diverse range of topics that illustrates the current Covid-19 situation. Based on judgement and understanding of the pandemic, the 5-topic model is the most appropriate. 
 
 From the 5-topic model, below is a short summary of what each topic entails.
 Topic 1 illustrates the status updates globally.  
